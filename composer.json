@@ -1,0 +1,21 @@
+{
+    "name": "jtech237/web-framework",
+    "description": "Pure PHP framework for web",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jtech237\\Framework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jtech237",
+            "email": "guttierez237@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "symfony/var-dumper": "^6.3"
+    }
+}
