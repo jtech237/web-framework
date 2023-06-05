@@ -5,7 +5,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Jtech237\\Framework\\": "src/"
+            "Jtech\\Framework\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests/"
         }
     },
     "authors": [
@@ -16,6 +21,13 @@
     ],
     "minimum-stability": "stable",
     "require-dev": {
-        "symfony/var-dumper": "^6.3"
+        "symfony/var-dumper": "^6.3",
+        "spatie/ignition": "^1.8",
+        "phpunit/phpunit": "^10.2"
+    },
+    "require": {
+        "guzzlehttp/psr7": "^2.5",
+        "symfony/yaml": "^6.3",
+        "altorouter/altorouter": "^2.0"
     }
 }
